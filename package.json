@@ -1,0 +1,19 @@
+{
+  "name": "challenge-robot",
+  "version": "1.0.0",
+  "description": "The application is a simulation of a toy robot moving on a square tabletop",
+  "main": "scr/main.js",
+  "scripts": {
+    "test": "jest --silent --notify --coverage",
+    "start:file": "node src/main.js start -f src/tests/exampleA.txt",
+    "start": "node src/main.js start -p"
+  },
+  "keywords": [],
+  "author": "Viviana WEISS <viviana.weiss@gmail.com>",
+  "license": "",
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "jest": "^27.0.6",
+    "yargs": "^17.0.1"
+  }
+}
